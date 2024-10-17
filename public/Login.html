@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="title">
+                <p>Untitled UI</p>
+            </div>
+            <div class="login-text">
+                <p class="login-title">Log in</p>
+                <p class="text">Welcome back! Please enter your details.</p>
+            </div>
+            <div class="input-form">
+                <div class="error-message" id="errorMessage">
+                    Please fill in all fields
+                </div>
+                <div class="input-box">
+                    <p>Email</p>
+                    <input type="text" class="input-field" placeholder="Enter your email" id="email">
+                </div>
+                <div class="input-box">
+                    <p>Password</p>
+                    <input type="password" class="input-field" id="password">
+                </div>
+                <div class="under-inputs">
+                    <div class="checkbox-input">
+                        <input type="checkbox" id="register-check">
+                        <label for="fegister-check">Remember for 30 days</label>
+                    </div>
+                    <div class="forgot-password">
+                        <label><a href="forgotPassword.html">Forgot password</a></label>
+                    </div>
+                </div>
+                <div class="button-box">
+                    <button class="singin-btn" id="signInBtn">Sing in</button>
+                    <button class="singin-google-btn">Sing in with Google</button>
+                </div>
+                <div class="singup-box">
+                    <p>Don't have an account?</p>
+                    <a href="Singup.html">Sing up</a>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard">
+            <div class="chart-container">
+                <div class="chart">
+                    <h3>Users over time</h3>
+                    <canvas class="lineChart" id="lineChart"></canvas>
+                </div>
+                
+            </div>
+            <div class="messages">
+                <p class="welcome-message">Welcome to your new dashboard</p>
+                <p>Sing in to explore changes we've made</p>
+                <div class="pagination-container">
+                    <button class="arrow" id="prevBtn">❮</button>
+                    <div class="dots" id="dotsContainer">
+                        <span class="dot active" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+                    <button class="arrow" id="nextBtn">❯</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

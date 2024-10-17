@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkYourEmail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="icon"></div>
+        <div class="messages">
+            <p class="title">Check your email</p>
+            <p class="message">We send a verification link to <a class="email-link" href="#">{emailHere}</a></p>
+        </div>
+        <div class="inputs">
+            <form action=""></form>
+                <input class="num" type="text"  maxlength="1" id="num">
+                <input class="num" type="text"  maxlength="1" id="num">
+                <input class="num" type="text"  maxlength="1" id="num">
+                <input class="num" type="text"  maxlength="1" id="num">
+            </form>
+        </div>
+        <div>
+            <a href="index.html"><button class="verify-btn" id="verifyBtn">Verify email</button></a>
+            
+        </div>
+        <div class="resend-email">
+            <p>Didn't recive the email?</p>
+            <a class="resend-link" href="#">Click to resend</a>
+        </div>
+        <div class="back-to-login">
+            <i class='fas fa-arrow-left' ></i>
+            <a href="#">Back to log in</a>
+        </div>
+    </div>
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCQLuRD_HRHzR1g788BDGw5p0NuHeoYTlM",
+          authDomain: "untitled-ui-e0ec6.firebaseapp.com",
+          projectId: "untitled-ui-e0ec6",
+          storageBucket: "untitled-ui-e0ec6.appspot.com",
+          messagingSenderId: "537524768633",
+          appId: "1:537524768633:web:32045fc8736db8ecfbe9a8",
+          measurementId: "G-RY63P4K14B"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>

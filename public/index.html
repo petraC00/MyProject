@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="content">
+                <p class="title">Untitled UI</p>
+                <div class="navigation">
+                    <button class="nav-item">Home</button>
+                    <div class="dropdown">
+                        <button class="dropdown-btn" id="dropdown-btn">Resources</button>
+                        <div class="dropdown-content" id="dropdown-content">
+                            <div class="left-content">
+                                <div class="menu-item">
+                                    <div class="icon"><i class="fa-solid fa-book"></i></div>
+                                    <div class="menu-content">
+                                        <p class="menu-content-title">Blog</p>
+                                        <p class="menu-dropdown-text">The latest industry news, updates and info.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+                                    <div class="menu-content">
+                                        <p class="menu-content-title">Customer stories</p>
+                                        <p class="menu-dropdown-text">Learn how our customers are making big changes.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="icon"><i class="fa-solid fa-play"></i></div>
+                                    <div class="menu-content">
+                                        <p class="menu-content-title">Video tutorialls</p>
+                                        <p class="menu-dropdown-text">Get up and running on new features and tehniques.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-content">
+                                <div class="image-wrap">
+                                    <img src="https://media.istockphoto.com/id/1354842602/photo/portrait-of-a-young-businesswoman-working-on-a-laptop-in-an-office.jpg?s=612x612&w=0&k=20&c=kfP1g2712RiaxsDriIxFo363ARlaL2D591s-22CnIo8=" alt="">
+                                    <button class="play-btn"></button>
+                                </div>
+                                <div class="text-box">
+                                    <div class="text-supportingText">
+                                        <p class="text">we've released an update!</p>
+                                        <p class="supporting-text">Check out all new dashboard view. Pages now load faster</p>
+                                    </div>
+                                    <div class="actions">
+                                        <button class="dismiss-btn">Dismiss</button>
+                                        <button class="changelog-btn">Changelog</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="nav-item">Pricing</button>
+                </div>
+            </div>
+            <div class="navigation-actions">
+                <a href="Login.html"><button class="login-btn">Log in</button></a>
+                <a href="Singup.html"><button class="singup-btn">Sing up</button></a>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="section-container">
+            <div class="section-content">
+                <div class="heading-message">
+                    <p class="heading-text">Grow your users.</p>
+                    <p class="heading-text">Smarter.</p>
+                    <p class="text-message">Powerful, self-serve product and growth analytics to help you convert, engage,
+                        and retain more users. Trusted by over 4,000 startups
+                    </p>
+                </div>
+                <div class="email-capture">
+                    <div class="input-feild">
+                        <input class="email-input" type="text" placeholder="Enter your email">
+                        <p class="privacy-text">We care about your data in our privacy policy.</p>
+                    </div>
+                    <button class="start-btn">Get started</button>
+                </div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div class="chart">
+                <h3>Users over time</h3>
+                <canvas class="lineChart" id="lineChart"></canvas>
+            </div>
+            
+        </div>
+    </section>
+    <section class="second-section">
+        <div class="second-section-container">
+            <div class="second-section-content">
+                
+                    <div class="text-supportingText">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="content-title">Share team inboxes</p>
+                        <p class="content-text">Wheter you have a team of 2 or 200, our shared
+                            team inboxes keep everyone on the same page
+                            and in the loop.
+                        </p>
+                    </div>
+                    <div class="text-supportingText">
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                        <p class="content-title">Deliver instant answer</p>
+                        <p class="content-text">An all-in-one customer service platform that helps
+                            you balance everything your customers need to be happy.
+                        </p>
+                    </div>
+                    <div class="text-supportingText">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p class="content-title">Manage your team with reports</p>
+                        <p class="content-text">Measure what matters with Untitled's easy-zo-use 
+                            reports. You can filter, export, and drilldown on
+                            the data in a couple clicks.
+                        </p>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="third-section">
+        <div class="heading-description">
+            <p class="heading">Get more value from your tools</p>
+            <p class="description">Connect your tools, connect your teams. With over 100 apps already available
+                in our directory, your team's favourite tool are just a click away
+            </p>
+        </div>
+        <div class="tools">
+            <div class="row-tools">
+                <div class="text-supportingText">
+                    <i class="fa-solid fa-n" ></i>
+                    <p class="content-title">Notion integration</p>
+                    <p class="content-text">Work faster and smarter by integration directly
+                        with Notion, right in the app.
+                    </p>
+                    <button class="view-btn">View integration</button>
+                </div>
+                <div class="text-supportingText">
+                    <i class="fa-brands fa-slack"></i>
+                    <p class="content-title">Slack integration</p>
+                    <p class="content-text">Work faster and smarter by integration directly
+                        with Slack, right in the app.
+                    </p>
+                    <button class="view-btn">View integration</button>
+                </div>
+                <div class="text-supportingText">
+                    <i class="fa-brands fa-google"></i>
+                    <p class="content-title">Google Drive integration</p>
+                    <p class="content-text">Work faster and smarter by integration directly
+                        with Google Drive, right in the app.
+                    </p>
+                    <button class="view-btn">View integration</button>
+                </div>
+            </div>
+            <div class="row-tools">
+                <div class="text-supportingText">
+                    <i class="fa-brands fa-intercom"></i>
+                    <p class="content-title">Intercom integration</p>
+                    <p class="content-text">Work faster and smarter by integration directly
+                        with Intercom, right in the app.
+                    </p>
+                    <button class="view-btn">View integration</button>
+                </div>
+                <div class="text-supportingText">
+                    <i class="fa-brands fa-jira"></i>
+                    <p class="content-title">Jira integration</p>
+                    <p class="content-text">Work faster and smarter by integration directly
+                        with Jira, right in the app.
+                    </p>
+                    <button class="view-btn">View integration</button>
+                </div>
+                <div class="text-supportingText">
+                    <i class="fa-brands fa-dropbox"></i>
+                    <p class="content-title">Dropbox integration</p>
+                    <p class="content-text">Work faster and smarter by integration directly
+                        with Dropbox, right in the app.
+                    </p>
+                    <button class="view-btn">View integration</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="metrics-section">
+        <div class="metric-container">
+            <p class="heading">Unleash the full power of data</p>
+            <p class="description">Everything you need to convert, engage and retain more users.</p>
+        </div>
+        <div class="metric-item-container">
+            <div class="metric-item">
+                <p class="num">400+</p>
+                <p class="item-text">Project completed</p>
+            </div>
+            <div class="metric-item">
+                <p class="num">600%</p>
+                <p class="item-text">Return on investment</p>
+            </div>
+            <div class="metric-item">
+                <p class="num">10k</p>
+                <p class="item-text">Global downloads</p>
+            </div>
+        </div>
+    </section>
+    <section class="features-section">
+        <div class="features-container">
+            <p class="heading">Cutting-edge features for advanced analytics</p>
+            <p class="description">Powerful, self-serve product and growth analytics to help  you convert,
+                engage, and retain more users. Trusted by over 4,000 startups
+            </p>
+        </div>
+        <div class="features-content">
+            <div class="text-supportingText">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="content-title">Share team inboxes</p>
+                <p class="content-text">Wheter you have a team of 2 or 200, our shared
+                    team inboxes keep everyone on the same page
+                    and in the loop.
+                </p>
+            </div>
+            <div class="text-supportingText">
+                <i class="fa-solid fa-bolt-lightning"></i>
+                <p class="content-title">Deliver instant answer</p>
+                <p class="content-text">An all-in-one customer service platform that helps
+                    you balance everything your customers need to be happy.
+                </p>
+            </div>
+            <div class="text-supportingText">
+                <i class="fa-solid fa-chart-simple"></i>
+                <p class="content-title">Manage your team with reports</p>
+                <p class="content-text">Measure what matters with Untitled's easy-zo-use 
+                    reports. You can filter, export, and drilldown on
+                    the data in a couple clicks.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="pricing-section">
+        <div class="pricing-container">
+            <p class="heading">Plans that fit yout scale</p>
+            <p class="description">Simple, transparent pricing that grows with you. Try any plan free fr 30 days</p>
+        </div>
+        <div class="pricing-content">
+            <div class="pricing-tier-card">
+                <div class="header">
+                    <div class="heading-supportingText">
+                        <p class="content-title">Basic plan</p>
+                        <p class="header-text">Our most popular plan for small teams</p>
+                    </div>
+                    <div class="price">
+                        <div class="amount">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <p>10</p>
+                        </div>
+                        <div class="period-wrap">
+                            <p>per mounth</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="plan-content">
+                    <div class="text-supportingText">
+                        <p class="plan-title">FEATURES</p>
+                        <p class="plan-text">Everything in our free plan plus...</p>
+                    </div>
+                    <div class="item-wrap">
+                        <div class="check-items">
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Access to basic features</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Basic reporting + analytic</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Up to 10 individual users</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>20GB individual data</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Basic chat support</p>
+                            </div>
+                        </div>
+                        <div class="check-items">
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Attend events</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Automatic updates</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Backup your account</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Audit log and notes</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Feature requests</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="devider">
+                <div class="footer">
+                    <button class="getStarted-btn">Get Started</button>
+                </div>
+            </div>
+            <div class="pricing-tier-card">
+                <div class="header">
+                    <div class="heading-supportingText">
+                        <p class="content-title">Business plan</p>
+                        <p class="header-text">Advanced features and reporting.</p>
+                    </div>
+                    <div class="price">
+                        <div class="amount">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <p>20</p>
+                        </div>
+                        <div class="period-wrap">
+                            <p>per mounth</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="plan-content">
+                    <div class="text-supportingText">
+                        <p class="plan-title">FEATURES</p>
+                        <p class="plan-text">Everything in our basic plan plus...</p>
+                    </div>
+                    <div class="item-wrap">
+                        <div class="check-items">
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>200+ integrations</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Advanced reporting</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Up to 20 individual users</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>40GB individual data</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Priority chat support</p>
+                            </div>
+                        </div>
+                        <div class="check-items">
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Advanced custom fields</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Audit log and data distory</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Backup your account</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>Personalised service</p>
+                            </div>
+                            <div class="check-item-text">
+                                <i class="fa-solid fa-check"></i>
+                                <p>+ many more...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="devider">
+                <div class="footer">
+                    <button class="getStarted-btn">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

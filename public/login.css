@@ -1,0 +1,197 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.form{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+.title{
+    color: black;
+    font-size: 16px;
+    margin-right: 225px;
+}
+.login-text{
+    margin-right: 45px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.text{
+    color: #667085;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.input-box p{
+    color: black;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.input-box input{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.input-field{
+    font-size: 15px;
+    height: 35px;
+    width: 300px;
+    border-radius: 8px;
+    margin: 10px 0 10px 0;
+    border: 1px solid #d0d5dd;
+}
+.under-inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+}
+.checkbox-input{
+    color: black;
+}
+.forgot-password label a{
+    text-decoration: none;
+}
+.button-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px 0 10px 0;
+    width: 300px;
+}
+.singin-btn{
+    margin-bottom: 7px;
+    background-color: #6941C6;
+    border-radius: 8px;
+    height: 35px;
+    width: 300px;
+    color: white;
+    border: none;
+}
+.singin-btn:hover{
+    background-color: #42307d;
+}
+.singin-google-btn:hover{
+    background-color: #f2f4f7;
+}
+.singin-google-btn{
+    margin-top: 7px;
+    background-color: white;
+    border-radius: 8px;
+    height: 35px;
+    color: black;
+}
+.error-message{
+    color: #d92d20;
+    display: none;
+}
+.singup-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.singup-box p{
+    color: #667085;
+}
+.singup-box a{
+    text-decoration: none;
+}
+
+.dashboard {
+    background: rgb(66,48,125);
+    background: linear-gradient(45deg, rgba(66,48,125,1) 0%, rgba(83,56,158,1) 80%, rgba(105,65,198,1) 100%);
+    display: flex;
+    flex-direction: column;
+    flex: 1.3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.chart-container {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.lineChart{
+    height: 250px;
+    width: 400px;
+}
+
+.chart {
+    margin-bottom: 20px;
+}
+
+.messages{
+    color: #f4ebff;
+    font-size:12px ;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    color: #fcfaff;
+    font-size: 18px;
+}
+.pagination-container {
+    display: flex;                   
+    justify-content: center;         
+    align-items: center;             
+    padding: 10px;                  
+}
+.arrow {
+    color: #fff;
+    background-color: transparent;   
+    border: none;                    
+    font-size: 20px;                 
+    cursor: pointer;                 
+    margin: 0 40px;                 
+}
+.dots {
+    display: flex;  
+    margin: 0 40px;
+}
+.dot {
+    height: 10px;                   
+    width: 10px;                    
+    margin: 0 5px;                  
+    background-color: #d6bbfb;         
+    border-radius: 50%;             
+    display: inline-block;           
+    cursor: pointer;                
+}
+.dot.active {
+    background-color: #fff;      
+}
+
+
+
